@@ -1,4 +1,4 @@
-package org.algo4j.testIDE;
+package java;
 
 public interface TestInterface {
 }

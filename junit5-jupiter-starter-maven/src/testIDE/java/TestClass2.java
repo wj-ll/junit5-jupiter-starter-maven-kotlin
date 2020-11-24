@@ -1,5 +1,4 @@
-package org.algo4j.testIDE;
-
+package java;
 public class TestClass2 {
     private final Class3 class3 = new Class3();
 
