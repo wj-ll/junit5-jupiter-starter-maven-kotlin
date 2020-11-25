@@ -1,4 +1,6 @@
 public class Commit2Class {
-  public void method(){
-    System.out.print("nothing");
+  public int method() {
+    System.out.print("nothing"+1+2);
+    return 1+2;
+  }
 }
