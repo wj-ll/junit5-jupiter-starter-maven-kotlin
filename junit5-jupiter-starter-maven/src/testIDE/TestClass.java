@@ -1,12 +1,12 @@
-package org.algo4j.testIDE;
+package testIDE;
 
 public class TestClass {
 
 
-    TestClass2 testClass2=new TestClass2();
+    testIDE.TestClass2 testClass2=new testIDE.TestClass2();
     private int anInt;
 
-    public TestInterface method() {
+    public testIDE.TestInterface method() {
         final int i = 0;
         return new MyTestInterface(i);
     }
@@ -22,7 +22,7 @@ public class TestClass {
     protected void print(){
         System.out.print(1 + "say something");
     }
-    private class MyTestInterface implements TestInterface {
+    private class MyTestInterface implements testIDE.TestInterface {
         private final int i;
 
         public MyTestInterface(final int i) {

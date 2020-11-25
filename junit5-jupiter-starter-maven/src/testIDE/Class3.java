@@ -1,4 +1,4 @@
-package org.algo4j.testIDE;
+package testIDE;
 
 import java.util.LinkedList;
 import java.util.List;
